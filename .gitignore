@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.env
+*.egg-info/
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Models / datasets / caches
+checkpoints/
+models/
+data/
+row_data/
+cache/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.npy
+*.npz
+
+# Experiment outputs — intentionally excluded from GitHub
+outputs/
+results/
+figures/
+logs/
+wandb/
+*.csv
+*.jsonl
+*.json
+*.png
+*.pdf
+
+# Cluster / scratch
+slurm-*.out
+*.err
+*.log

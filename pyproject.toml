@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rcc-dllm"
+version = "0.1.0"
+description = "Reveal Commitment Consistency for hallucination detection and selective mitigation in diffusion language models"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "matplotlib",
+  "tqdm",
+  "torch",
+  "transformers",
+  "datasets",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
