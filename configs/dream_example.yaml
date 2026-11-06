@@ -1,0 +1,10 @@
+model_path: Dream-org/Dream-v0-Instruct-7B
+dataset: triviaqa
+split: validation
+subsample: 100
+diffusion_steps: 128
+gen_length: 128
+batch_size: 1
+temperature: 0.0
+top_p: null
+alg: origin
